@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-config-viewer-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "view": "tailwind-config-viewer -o",
+    "build": "tailwind-config-viewer export ./output-dir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwind-config-viewer": "^1.7.2",
+    "tailwindcss": "^3.3.2"
+  }
+}
